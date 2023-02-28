@@ -1,0 +1,367 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/*<!-- Home
+    ============================================= -->*/
+    .container{
+      width: 95%;
+    }
+    
+    .home .content{
+      font-size: 14px;
+    }
+    .home .content p {
+      font-size: 1.85em;
+    }
+    .home .content h2 {
+      font-size: 3.5em;
+    }
+    .nav{
+      width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        margin-bottom: 0px;
+        transition: all 0s;
+    }
+    .nav h2{
+      width: 70%;
+        padding: 0;
+        background-color: rgba(255, 38, 0, 0.2);
+    }
+    .nav ul{
+      background-color: transparent;
+      width: 100%;
+        flex-direction: column;
+        padding: 0;
+        transition: all 0.7s;
+        margin-top: -300px;
+
+    }
+    .nav:hover ul{
+      opacity: 1;
+      display: flex;
+      margin-top: 00px;
+      
+      /* background-color: blue !important; */
+    }
+    .nav li {
+        padding: 0.6rem;
+
+    }
+/*<!-- About
+    ============================================= -->*/
+    .header h2{
+        font-size: 5rem ;
+    }
+    .about-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    .about-lt{
+    padding: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.about-rt{
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+.about-projects .project{
+  width: 50%;
+  
+}
+.about-projects .p1{
+    /*border-right: 0.0001rem dashed #EAEAEA;*/
+    border-bottom: 0.0001rem dashed #EAEAEA;
+}
+.about-projects .p2{
+    border-right:none ;
+    border-bottom: 0.0001rem dashed #EAEAEA;
+}
+.about-projects {
+  font-size: 14px;
+}
+.about-projects h4{
+   font-size:2.25em ; 
+}
+
+ /*<!-- Service
+    ============================================= -->*/
+.service{
+  width: 100%;
+}
+/*<!-- Resume
+    ============================================= -->*/
+    .edu-box{
+      width: 100%;
+    }
+    .boxing{
+      width: 100%;
+    }
+    /*<!-- Portfolio
+    ============================================= -->*/
+        .port-images .column {
+      width: 100%;
+    }
+
+/*<!-- Testimonial
+    ============================================= -->*/
+     .testi-box .box{
+        width: 100%;
+     }  
+    .testi-box .box2{
+      display: none;
+    } 
+    .contact-lt{
+      margin-bottom: 10rem;
+      width: 100%;
+      order: 2;
+      text-align: center;
+      margin: auto;
+    }   
+    .contact-rt{
+      align-self: flex-start;
+      width: 100%;
+      order: 1;
+      margin-bottom:  3rem;
+    } 
+    .contact-rt input {
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+    .contact-rt textarea{
+      margin-top: 1.5rem;
+    }
+
+    .footer-content {
+      justify-content: center;
+    }
+    .footer-lt{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .footer-rt{
+      width: 100%;
+      justify-content: center;
+    }
+
+       
+    }
+/*@@@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+/*<!-- Home
+    ============================================= -->*/
+   .container{
+    width: 80%;
+   }
+    .nav {
+    padding: 0;
+   }
+    .nav ul{
+        width: 100%;
+    }    
+    .nav li {
+        padding: 0.6rem;
+    }
+/*<!-- About
+    ============================================= -->*/
+    .header h2{
+        font-size: 6rem ;
+    }
+    .about-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    .about-lt{
+    width: 100%;
+}
+.about-rt{
+    width: 100%;
+    padding: 0;
+    text-align: left;
+ }
+ 
+.about-projects {
+  font-size: 14px;
+}
+.about-projects h4{
+   font-size:2.5em ; 
+}
+.about-projects .project{
+  width: 50%;
+  
+}
+.about-projects .p1{
+    /*border-right: 0.0001rem dashed #EAEAEA;*/
+    border-bottom: 0.0001rem dashed #EAEAEA;
+}
+.about-projects .p2{
+    border-right:none ;
+    border-bottom: 0.0001rem dashed #EAEAEA;
+}
+ /*<!-- Services
+    ============================================= -->*/
+.service{
+  width: 100%;
+}
+/*<!-- Resume
+    ============================================= -->*/
+     .edu-box{
+      width: 100%;
+    }
+    .boxing{
+      width: 100%;
+    }
+    /*<!-- Portfolio
+    ============================================= -->*/
+    .port-images .column{
+      width: 50%;
+    }
+    /*<!-- Testimonial
+    ============================================= -->*/
+     .testi-box .box{
+        width: 100%;
+     }  
+    .testi-box .box2{
+      display: none;
+    }       
+
+     .port-images .column {
+      width: 90%;
+    }
+    .contact {
+      font-size: 14px;
+    }
+    .contact-lt{
+      font-size: 1.3em;
+      margin-bottom: 10rem;
+      width: 100%;
+      order: 2;
+      text-align: center;
+      margin: auto;
+    }   
+    .contact-rt{
+      font-size: 1.3em;
+      align-self: flex-start;
+      width: 100%;
+      order: 1;
+      margin-bottom:  3rem;
+    } 
+    .contact-rt input {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .contact-rt textarea{
+      margin-top: 1.5rem;
+    }
+
+    .footer-content {
+      justify-content: center;
+    }
+    .footer-lt{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .footer-rt{
+      width: 100%;
+      justify-content: center;
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 87%;
+    }
+    /*<!-- About
+    ============================================= -->*/
+   .about-projects {
+  font-size: 14px;
+}
+.about-projects h4{
+   font-size:3em ; 
+}
+.about-projects .project{
+  width: 25%;
+  
+}
+
+ /*<!-- Services
+    ============================================= -->*/
+.service{
+  width: 50%;
+}
+
+.edu-box{
+      width: 48%;
+    }
+   
+.boxing{
+      width: 48%;
+    }
+ /*<!-- Portfolio
+    ============================================= -->*/
+
+      .port-images .column {
+      width: 75%;
+    }
+
+    .contact-lt{
+      width: 25%;
+      order: 1;
+      margin-top: 0;
+      margin-left: 0;
+      text-align: left;
+    }   
+    .contact-rt{
+      width: 75%;
+      order: 2;
+    } 
+    .contact-rt input {
+      width: 100%;
+    }
+
+    }
+/*@@@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px ) {
+    .container {
+        width: 90%;
+    }
+  .about-projects {
+  font-size: 14px;
+}
+.about-projects h4{
+   font-size:3em ; 
+}
+/*<!-- Testimonial
+    ============================================= -->*/
+     .testi-box .box{
+        width: 100%;
+     }  
+    .testi-box .box2{
+      display: none;
+    }    
+
+    .footer-content {
+      justify-content: center;
+    }
+    .footer-lt{
+      margin-bottom: 2rem;
+    }
+    
+  }
+/*@@@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
